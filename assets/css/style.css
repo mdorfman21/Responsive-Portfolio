@@ -1,0 +1,730 @@
+.header {
+  position: relative;
+  background-color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 36px;
+  opacity: 0.9;
+  border-bottom: 3px solid #cccccc;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+textarea {
+  height: 10em;
+  width: 50em;
+}
+
+body {
+  width: 960px;
+  background-image: url("../images/dust_scratches/dust_scratches.png");
+  height: 100%;
+  margin: 0;
+}
+
+span {
+  background-color: #4aaaa5;
+  color: white;
+}
+
+.largerFont {
+  font-size: 18px;
+}
+
+.navbarRight {
+  position: absolute;
+  top: 0px;
+  right: 2%;
+  display: block;
+  padding: 8px;
+}
+
+.navbarButton {
+  text-align: center;
+}
+
+.navbarPadding {
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.border-1 {
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+}
+
+#indexImg {
+  float: left;
+  width: 300px;
+  height: 400px;
+  padding-right: 10px;
+  padding-top: 25px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  padding: 25px 10px 0px 15px;
+  text-indent: 20px;
+  line-height: 1.5;
+}
+
+.contentBackground {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+html {
+  height: 100%;
+  width: max-content;
+  margin: 0px auto;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.push {
+  height: 36px;
+}
+
+.footer {
+  height: 36px;
+  background-color: #666666;
+  border-top: 4px solid #4aaaa5;
+  text-align: center;
+  color: #777777;
+  width: 960px;
+  position: relative;
+}
+
+.contentPadding {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+
+h2 {
+  color: #4aaaa5;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #666666;
+  font-size: 26px;
+}
+
+form {
+  position: relative;
+}
+
+.bigTextBox {
+  width: 300px;
+  height: 200px;
+  overflow: auto;
+}
+
+.lighterText {
+  color: #777777;
+  overflow: auto;
+}
+
+.contactBody {
+  padding-bottom: 20%;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+}
+
+a:visited {
+  color: blue;
+  background-color: transparent;
+}
+
+a:hover {
+  color: red;
+  background-color: aqua;
+}
+
+.portfolioImg {
+  position: relative;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.fontPColor {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  padding-bottom: 3px;
+}
+
+h1 {
+  font-size: 32px;
+  padding-top: 2px;
+}
+
+#firstInput {
+  margin-top: 15px;
+}
+
+#firstPortfolioImages {
+  margin-top: 10px;
+}
+
+.copyright {
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+#projectOne {
+  position: absolute;
+  background-color: #4aaaa5;
+  height: 35px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  left: 194.5px;
+  top: 203px;
+  font-size: 35px;
+}
+
+#projectTwo {
+  position: absolute;
+  background-color: #4aaaa5;
+  height: 35px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  left: 468.5px;
+  top: 203px;
+  font-size: 35px;
+}
+
+#projectThree {
+  position: absolute;
+  background-color: #4aaaa5;
+  height: 35px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  left: 194.5px;
+  top: 203px;
+  font-size: 35px;
+}
+
+#projectFour {
+  position: absolute;
+  background-color: #4aaaa5;
+  height: 35px;
+  width: 250px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  left: 468.5px;
+  top: 203px;
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+input:required {
+  background-color: yellow;
+}
+
+@media screen and (max-width: 640px) {
+  .shell {
+    max-width: 100%;
+    background-color: purple;
+  }
+
+  .header {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 36px;
+    opacity: 0.9;
+    border-bottom: 3px solid #cccccc;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    max-width: 100%;
+  }
+
+  body {
+    max-width: 100%;
+    background-color: purple;
+    height: 67%;
+  }
+
+  .navbarRight {
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  html {
+    max-width: 100%;
+  }
+  #projectOne {
+    position: relative;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 25.3vw;
+    top: -55vw;
+    font-size: 35px;
+  }
+
+  #projectTwo {
+    position: relative;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 25.3vw;
+    top: -17vw;
+    font-size: 35px;
+  }
+
+  #projectThree {
+    position: relative;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 25.3vw;
+    top: -55vw;
+    font-size: 35px;
+  }
+
+  #projectFour {
+    position: relative;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 25.3vw;
+    top: -17vw;
+    font-size: 35px;
+  }
+
+  textarea {
+    height: 10em;
+    width: 20em;
+  }
+
+  .portfolioImg {
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .image-one {
+    background-image: url(./assets./images/placeholder1.jpg);
+    height: 250px;
+  }
+
+  .image-two {
+    background-image: url(./assets./images/placeholder2.jpg);
+    height: 250px;
+  }
+
+  .image-three {
+    background-image: url(./assets./images/placeholder3.jpg);
+    height: 250px;
+
+    padding: 0px;
+  }
+
+  .image-four {
+    background-image: url(./assets./images/placeholder4.jpg);
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .shell {
+    max-width: 100%;
+    background-color: purple;
+  }
+
+  .header {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 36px;
+    opacity: 0.9;
+    border-bottom: 3px solid #cccccc;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    max-width: 100%;
+  }
+
+  body {
+    max-width: 100%;
+    background-color: purple;
+    height: 67%;
+  }
+
+  h1 {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  html {
+    max-width: 100%;
+  }
+  #projectOne {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 11.7vw;
+    top: 26vw;
+    font-size: 35px;
+  }
+
+  #projectTwo {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 47.4vw;
+    top: 26vw;
+    font-size: 35px;
+  }
+
+  #projectThree {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 11.7vw;
+    top: 26vw;
+    font-size: 35px;
+  }
+
+  #projectFour {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 47.4vw;
+    top: 26vw;
+    font-size: 35px;
+  }
+
+  textarea {
+    height: 10em;
+    width: 40em;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    position: relative;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 36px;
+    opacity: 0.9;
+    border-bottom: 3px solid #cccccc;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  textarea {
+    height: 10em;
+    width: 50em;
+  }
+
+  body {
+    width: 960px;
+    background-image: url("../images/dust_scratches/dust_scratches.png");
+    height: 100%;
+    margin: 0;
+  }
+
+  span {
+    background-color: #4aaaa5;
+    color: white;
+  }
+
+  .largerFont {
+    font-size: 18px;
+  }
+
+  .navbarRight {
+    position: absolute;
+    top: 0px;
+    right: 2%;
+    display: block;
+    padding: 8px;
+  }
+
+  .navbarButton {
+    text-align: center;
+  }
+
+  .navbarPadding {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  .border-1 {
+    border-right: 0.5px solid black;
+    border-left: 0.5px solid black;
+  }
+
+  #indexImg {
+    float: left;
+    width: 300px;
+    height: 400px;
+    padding-right: 10px;
+    padding-top: 25px;
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding: 25px 10px 0px 15px;
+    text-indent: 20px;
+    line-height: 1.5;
+  }
+
+  .contentBackground {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+
+  html {
+    height: 100%;
+    width: max-content;
+    margin: 0px auto;
+  }
+
+  .wrapper {
+    min-height: 100%;
+  }
+
+  .push {
+    height: 36px;
+  }
+
+  .footer {
+    height: 36px;
+    background-color: #666666;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+    color: #777777;
+    width: 960px;
+    position: relative;
+  }
+
+  .contentPadding {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 15px;
+  }
+
+  h2 {
+    color: #4aaaa5;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #666666;
+    font-size: 26px;
+  }
+
+  form {
+    position: relative;
+  }
+
+  .bigTextBox {
+    width: 300px;
+    height: 200px;
+    overflow: auto;
+  }
+
+  .lighterText {
+    color: #777777;
+    overflow: auto;
+  }
+
+  .contactBody {
+    padding-bottom: 20%;
+  }
+
+  a:active {
+    color: yellow;
+    background-color: transparent;
+  }
+
+  a:visited {
+    color: blue;
+    background-color: transparent;
+  }
+
+  a:hover {
+    color: red;
+    background-color: aqua;
+  }
+
+  .portfolioImg {
+    position: relative;
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .fontPColor {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    padding-bottom: 3px;
+  }
+
+  h1 {
+    font-size: 32px;
+    padding-top: 2px;
+  }
+
+  #firstInput {
+    margin-top: 15px;
+  }
+
+  #firstPortfolioImages {
+    margin-top: 10px;
+  }
+
+  .copyright {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+  }
+
+  #projectOne {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 194.5px;
+    top: 203px;
+    font-size: 35px;
+  }
+
+  #projectTwo {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 468.5px;
+    top: 203px;
+    font-size: 35px;
+  }
+
+  #projectThree {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 194.5px;
+    top: 203px;
+    font-size: 35px;
+  }
+
+  #projectFour {
+    position: absolute;
+    background-color: #4aaaa5;
+    height: 35px;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    left: 468.5px;
+    top: 203px;
+    font-size: 35px;
+  }
+
+  ul {
+    list-style-type: circle;
+  }
+
+  input:required {
+    background-color: yellow;
+  }
+}
